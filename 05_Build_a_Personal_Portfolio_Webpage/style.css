@@ -1,0 +1,101 @@
+
+/* mobile first design
+------------------------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #bE3144;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 1.25rem;
+    padding: 1rem
+}
+
+#navbar li:hover {
+    background-color:#45567d ;
+}
+
+#welcome-section {
+    margin-top: 2rem;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top right, #3a3d40, #0d0c0d);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#welcome-section p{
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #bE3144;
+
+}
+
+#projects ul {
+    list-style-type: none;
+}
+
+#projects li {}
+
+#projects a {
+    text-decoration: none;
+}
+
+#projects img {
+    max-width: 100%;
+}
+
+
+
+
+
+@media all and (min-width:462px) {
+
+    #navbar {
+        justify-content: flex-end;
+    }
+
+}
+
+/* @media all and (min-width:462px) { } */
+
+/* @media all and (min-width:462px) { } */
